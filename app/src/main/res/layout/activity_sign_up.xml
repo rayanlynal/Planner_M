@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="32dp"
+        android:text="Create Account,"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:text="Sign up to get started! "
+        android:textSize="20dp"
+        android:layout_marginLeft="22dp"
+        />
+
+    <EditText
+        android:layout_width="340dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="160dp"
+        android:background="#ffffff"
+        android:text="Full Name"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="230dp"
+        android:background="#ffffff"
+        android:text="Email ID"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="300dp"
+        android:background="#ffffff"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawing"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/blue"
+        android:gravity="center"
+        android:text="Connect with facebook"
+        android:textColor="#1A237E" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="538dp"
+        android:gravity="center"
+        android:text="I'm already a member, Sign In"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+</RelativeLayout>
